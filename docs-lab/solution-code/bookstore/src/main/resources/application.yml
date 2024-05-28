@@ -1,0 +1,13 @@
+logging:
+  level:
+    org:
+      springframework: WARN
+    co:
+      ga: DEBUG
+    hibernate:
+      type: trace
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console

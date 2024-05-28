@@ -1,0 +1,6 @@
+logging:
+  level:
+    org:
+      springframework: WARN
+    co:
+      ga: DEBUG

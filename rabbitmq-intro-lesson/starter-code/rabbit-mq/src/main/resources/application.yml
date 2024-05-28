@@ -1,0 +1,16 @@
+spring:
+    rabbitmq:
+        username: guest
+        password: guest
+
+logging:
+    level:
+        org:
+            springframework: WARN
+        co:
+            ga: INFO
+
+sender:
+    client:
+        duration: 10000
+        fixedRate: 1000
