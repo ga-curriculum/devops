@@ -18,7 +18,7 @@ Generally, companies begin with continuous integration (CI). Continuous delivery
 
 ## Continuous Integration 
 
-![](https://ga-instruction.s3.amazonaws.com/assets/continuous-integration/CImeme.png)
+![](https://ga-curriculum.github.io/universal-resources-internal/static/lesson-assets/continuous-integration/CImeme.png)
 
 Don't be Disaster Girl. You can avoid disasters with continuous integration, which means that individual developers integrate their work into a main repository multiple times a day. That way, you can catch integration bugs early and collaborate more quickly. _Integrating work from multiple developers_ involves, at a minimum, building and testing the application whenever a change is made by a developer (i.e., continuously). 
 
@@ -40,7 +40,7 @@ As your mom always said, the early bird catches the worm. Finding bugs earlier i
 
 So, how do we find bugs early? By testing early and often. You really don't want to have to think too much about *when* and *how* to run tests. Most modern software development teams would rather run tests automatically when there's any kind of change to the code, specifically in the mainline branch where all developers integrate their code for the next release. 
 
-![](https://ga-instruction.s3.amazonaws.com/assets/continuous-integration/automate-all-the-things-small.jpeg)
+![](https://ga-curriculum.github.io/universal-resources-internal/static/lesson-assets/continuous-integration/automate-all-the-things-small.jpeg)
 
 A **build pipeline** is the automated process that watches for changes. When a change is detected, the build pipeline builds the application, tests it, and possibly does other stuff, too. Pipelines can have stages, and each stage can have steps. Steps in your pipeline can execute Maven, Gradle, shell scripts, and more. 
 
@@ -88,7 +88,7 @@ Once your application is built (usually in the first stage of your pipeline), yo
 
 ## CI's Best Friend: CD
 
-![](https://ga-instruction.s3.amazonaws.com/assets/continuous-integration/deliver-continuouslysmall.png)
+![](https://ga-curriculum.github.io/universal-resources-internal/static/lesson-assets/continuous-integration/deliver-continuouslysmall.png)
 
 Continuous delivery (CD) is an approach that builds on continuous integration. CD ensures that our code is always in a deployable state, even with thousands of developers making changes regularly. Teams produce software in short cycles so they can release the software whenever necessary. CD helps teams save time and money and makes delivering changes less risky.
 
