@@ -8,7 +8,6 @@
   <packaging>jar</packaging>
 
   <name>rabbitmq-lab1</name>
-  <url>https://git.generalassemb.ly/GA-Cognizant/dev-ops/tree/master/messaging/rabbitmq/lab1</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
