@@ -2,7 +2,7 @@
 | -- | -- | -- | -- |
 | Logging and Monitoring | Lesson | 2:50 | Prateek Parekh |  
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Logging and Monitoring
+# <picture><img src="https://ga-curriculum.github.io/universal-resources-internal/ga-logos/ga-red-cog-128x128.png" alt="" height="48" align="absmiddle"></picture> Logging and Monitoring
 
 ### Learning Objectives
 
